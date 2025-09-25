@@ -1,2 +1,13 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+
+내일 배움 캠프 앱 창업 과정 8기 
+2주차 Dart 문법 과제
+
+1. 시험 점수에 따른 등급 나누기
+    - if 조건문을 활용한 버전과 switch를 활용한 버전으로 나눠서 작성 했다.
+    - 또한 2개 다 함수로 만들었기 때문에 함수의 파라미터안에 점수를 넣으면 자동으로 분류 된다.
+    - 2 함수 모두 점수 조건을 사용해서 등급이 분류 되게 만들었다.
+
+2. 쇼핑 카트에 있는 물품 구매시 금액 계산
+    - 2nd 파일에서는 코드 구현만 했다.
+    - 2nd_function 파일에서는 함수로 정리하고 가독성을 높였다.
+    - 
