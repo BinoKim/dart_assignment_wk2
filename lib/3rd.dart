@@ -43,7 +43,7 @@ void compareNum (yourNum) {
       print("당첨 여부: 축하합니다!! 3등 당첨!!!");
       break;
     default:
-      print("당첨 여부: 당첨 실패");
+      print("당첨 여부: 당첨 실패.. 다음 기회에!!");
   }
   
   print("당첨 번호 갯수 : $matchN개");
@@ -55,13 +55,12 @@ void main() {
  
   // 함수로 번호를 발급 받고 호출하기.
   final firstNum = numCreater();
-  //print(firstNum);
   compareNum(firstNum);
   
+  // 구분선
   print("-" * 40);
   
   final secondNum = numCreater();
- // print(secondNum);
   compareNum(secondNum);
   
   
