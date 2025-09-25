@@ -1,6 +1,9 @@
 // 1번 문제
 // switch로 풀기
 
+
+// switch문으로 조건을 만들어 동작 실행 
+// case별로 등급을 나눴음
 void score (int testResult) {
   
   switch (testResult) {
@@ -17,14 +20,9 @@ void score (int testResult) {
 
 void main() {
   
+  // 함수와 해당 파라미터의 숫자로 동작 실행
   score(79);
   score(97);
   score(84);
 }
 
-//결과값
-/*
-이 학생의 점수는 79점 이며, 등급은 C 등급입니다!
-이 학생의 점수는 97점 이며, 등급은 A 등급입니다!
-이 학생의 점수는 84점 이며, 등급은 B 등급입니다!
-*/
