@@ -14,6 +14,7 @@ Set<int> numCreater () {
     myNum.add(Random().nextInt(45) + 1);
     i += 1;
   } 
+  print("이번주 로또 번호 : $thisWeekNumber");
   print("발급한 로또 번호 : $myNum");
   return myNum;
 }
