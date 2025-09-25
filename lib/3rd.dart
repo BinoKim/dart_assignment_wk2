@@ -27,9 +27,7 @@ void compareNum (yourNum) {
     if (thisWeekNumber.contains(eachNum)) {
     //  print(eachNum);
       matchN += 1;
-    } else {
-      continue;
-    }  
+    }
   }
   // 당첨 번호 갯수에 따른 내용 출력
   switch (matchN) {
@@ -47,9 +45,12 @@ void compareNum (yourNum) {
   }
   
   print("당첨 번호 갯수 : $matchN개");
-  print("현재 발급한 로또 번호 : []");
-}
+  //print(yourNum);
 
+  // 발급한 로또 번호 초기화
+  yourNum = {};
+  print("현재 발급한 로또 번호 : $yourNum");
+}
 
 void main() {
  
@@ -62,6 +63,5 @@ void main() {
   
   final secondNum = numCreater();
   compareNum(secondNum);
-  
   
 }
