@@ -16,13 +16,14 @@ void personalCart(listName, mapName) {
   }
   
   // 총 가격이 20,000원 이상일 경우 10% 할인을 한다.
-  double discount = 0;
+  //double discount = 0;
+  int discount = 0;
   if (totalPrice > 20000) {
-    discount = totalPrice * 0.1;
+    discount = totalPrice ~/ 10;
   }
   
   // 할인 금액을 뺀 최종 가격을 계산한다.
-  double finalPrice = totalPrice - discount;
+  int finalPrice = totalPrice - discount;
   
   // 가격 계산 프로세스를 출력한다. 
   print("장바구니에 $totalPrice원 어치를 담으셨네요!");
