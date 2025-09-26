@@ -9,10 +9,18 @@ Set<int> thisWeekNumber = {9, 19, 29, 35, 37, 38};
 Set<int> numCreater () {  
   // 로또 번호 발급기
   Set<int> myNum = {};
+
+  /* for 반복문
   int i = 0;
   for (i = 0; myNum.length < 6; i ++) {
     myNum.add(Random().nextInt(45) + 1);
     i += 1;
+  }
+  */
+
+  // while 반복문
+  while (myNum.length < 6) {
+    myNum.add(Random().nextInt(45) + 1);
   } 
   print("이번주 로또 번호 : $thisWeekNumber");
   print("발급한 로또 번호 : $myNum");
